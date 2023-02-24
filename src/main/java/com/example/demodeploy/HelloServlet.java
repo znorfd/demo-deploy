@@ -2,10 +2,10 @@ package com.example.demodeploy;
 
 import java.io.*;
 
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet") //haha
+@WebServlet(name = "helloServlet", value = "/hello-servlet") //haha/hello-servlet
 public class HelloServlet extends HttpServlet {
     private String message;
 
